@@ -1,0 +1,24 @@
+package pack;
+
+import java.util.concurrent.*;
+
+public class Teste01 {
+
+	public static void main(String[] args) {
+
+		Semaphore s = new Semaphore( 1 );
+		
+		try {
+			System.out.println("esperando ...");
+			s.acquire(); // ESPERAR
+			System.out.println("pego");
+			s.release(); // SINALIZAR
+			System.out.println("liberado");
+			System.out.println("fim do teste");
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}
