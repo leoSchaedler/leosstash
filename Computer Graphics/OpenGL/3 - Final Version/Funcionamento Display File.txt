@@ -1,0 +1,22 @@
+O arquivo "df.txt" é um arquivo Display File, ou seja, é um arquivo de texto que descreve a cena a ser exibida pelo programa cpp. Seus parâmetros são diretamente avaliados pelo programa em si, podem ser mudados para uma nova execução, e dependendo do posicionamento do comando "DisplayFileRead("df.txt");" (pode estar na função main ou na função render) pode aplicar as alterações em tempo real de execução.
+
+A primeira linha de minha DF indica o número total de objetos na cena.
+
+As linhas subsequentes descrevem os objetos e suas variáveis na seguinte ordem:
+
+
+1º número: Tipo do objeto, definido na função render com switch case;
+
+2º, 3º e 4º número: Coordenadas X, Y e Z do objeto no espaço;
+
+5º, 6º e 7º número: Valores R, G e B para coloração do objeto;
+
+8º número: Variável (grow) responsável pela função de aumento de tamanho da figura;
+
+
+
+A leitura do arquivo DF é feita de maneira sequencial em linhas.
+
+
+
+Aluno - Leonardo Ribeiro Schaedler

@@ -1,0 +1,37 @@
+
+Trabalho de Construcao de Software Grafico 3D - Implementacao OpenGL - Leonardo Ribeiro Schaedler 
+
+Neste trabalho o usuário pode interagir e alterar em tempo real uma cena construída em C++ com ajuda do OpenGL, abaixo os comandos disponíveis estão listados:
+
+
+	- O usuário pode apertar TAB a qualquer momento para mostrar novamente as instruções;
+
+	- Page UP, Page Down, Home e End rotacionam a cena;
+
+	- Pode-se utilizar as setas direcionais ou do Numpad  e as teclas '<' e '>' para mover a camera pela cena;
+
+	- Clique esquerdo do mouse - zoom in;
+
+	- Clique direito do mouse - zoom out;
+
+	- O usuário pode pressionar a tecla 'o' para entrar em modo de projeção ortogonal e 'p' para projeção 	  	  perspectiva;
+
+	- Pressionar a tecla 'a' para ligar a primeira luz, 's' para desligá-la. Apertar 'd' para ligar a segunda 	  luz e 'f' para desligá-la;
+
+	- Pressionar de 1-8 para ligar/ desligar a renderização dos objetos;
+
+	- Pressionar de F1-F8 para selecionar o objeto desejado, para parar de selecionar um objeto apertar a tecla 	  Insert;
+
+	- Com algum objeto já selecionado, utilizar as setas direcionais ou do Numpad e as teclas '<' e '>' para 	  	  movê-lo na cena;
+
+	- Com algum objeto já selecionado, utilizear a tecla 'c' para aumentar o tamanho dele e a tecla 'v' para 	  	  diminuir;
+
+	- Com algum objeto já selecionado, utilizar as teclas r, g, b para aumentar a intensidade das cores;
+
+	- Com algum objeto já selecionado, utilizar as teclas t, h, n para diminuir a intensidade das cores;
+
+	- As teclas r e t mudam a cor vermelha, g e h mudam a cor verde e b e n mudam a azul;
+
+	- Caso nenhum objeto esteja selecionado, as alterações de cor serão aplicadas ao fundo da cena;
+
+	- A cada ação do usuário um aviso descrevendo a ação será mostrada no terminal;
